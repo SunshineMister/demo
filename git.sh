@@ -5,6 +5,7 @@ if [ -n "$msg" ]; then
    git pull
    git status
    echo "完成add、commit、pull，别忘了push"
+   git push
 else
     echo "请添加注释再来一遍"
 fi
